@@ -127,6 +127,11 @@ and open the template in the editor.
     .h1-mobileServicesText{
         display: none;
     }
+    .materialboxed{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 200px;
+    }
     
     
     
@@ -175,19 +180,20 @@ and open the template in the editor.
         /* REMOVE Text saying "We are a certified Shiseido retailer.." */
         .h1-certText{
             text-align: center; 
-            font-family: 'EB Garamond', serif; 
-            font-size: 40px;
-            display: none !important;
+            font-family: 'Cookie', cursive; 
+            font-size: 25px;
+            
         }
         /* REMOVE PRODUCTS IMAGES */
         .materialboxed{
-            display: none;
+            width: 60px;
+            height: 60px;
         }
         /* REMOVE Text for Products at bottom on container.*/
         .h1-ProdText{
             text-align: center; 
-            font-family: 'EB Garamond', serif; 
-            font-size: 40px;
+            font-family: 'Cookie', cursive; 
+            font-size: 35px;
             display: none;
         }
         
