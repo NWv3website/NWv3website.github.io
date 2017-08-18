@@ -1,0 +1,283 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* Loc-Name is the class that holds the text for the Location Name*/
+    .Loc-Name{
+        text-align: center;
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 30px;
+        border-bottom: 1px solid black;
+    }
+    /*Loc-Addr is the class that holds the text for the Location Address */
+    .Loc-Addr{
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        font-family: 'EB Garamond', serif;
+        padding-bottom: 0;
+    }
+    /* Schedule-text is the class that holds the text "Schedule an Appointment"*/
+    .Schedule-text{
+        text-align: center;
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid black;
+    }
+    /* Loc-Phone is the class that holds the text for the Location Phone*/
+    .Loc-Phone{
+        text-align: center;
+        color: black;
+        font-family: 'Times New Roman', serif;
+        font-size: 23px;
+    }
+    /* Loc-Hour is the class that holds the text for Location Hours*/
+    .Loc-Hour{
+        text-align: center;
+        color: black;
+        font-family: 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    /* Location-image is the class that holds the images for each Location*/
+    .Location-image{
+        width: 400px;
+        height: 400px;
+        border: 2px solid black;
+    }
+    /* Navigation Bar */
+    .nav-wrapper{
+        padding-left: 10px; 
+        background-color: #4a148c; 
+        font-family: 'Cookie', cursive;
+    }
+    /* Carousel Items */
+    .carousel-item{
+        background-position: 50% 50%; 
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+    /* Text underneath Circle Images */
+    .h1-ImageText{
+        text-align: center; 
+        font-size: 40px; 
+        font-family: 'EB Garamond', serif;
+    }
+    /* Text offering Additional Services */
+    .h1-offerText{
+        text-align: center; 
+        font-family: 'EB Garamond', serif; 
+        font-size: 30px;
+    }
+    /* Text saying "We are a certified Shiseido retailer.." */
+    .h1-certText{
+        text-align: center; 
+        font-family: 'EB Garamond', serif; 
+        font-size: 40px;
+    }
+    /* Intro Text "Be your own kind..." */
+    .h1-IntroText{
+        text-align: center; 
+        font-family: 'Cookie', cursive; 
+        font-size: 100px;
+    }
+    /* Text for Products at bottom on container.*/
+    .h1-ProdText{
+        text-align: center; 
+        font-family: 'EB Garamond', serif; 
+        font-size: 40px;
+    }
+    /* Circles that hold Images */
+    .circle{
+        height: 340px; 
+        width: 340px; 
+        border: 1px solid black;
+    }
+    /* Container padding */
+    .container{
+        padding-top: 20px;
+    }
+    /* Footer */
+    .myfooter{
+        background-color: black; 
+        padding-top: 5px; 
+        padding-bottom: 5px;
+    }
+    /* Footer Text */
+    .h1-footerText{
+        font-family: 'EB Garamond', serif; 
+        font-size: 20px; 
+        color: white;
+    }
+    /* Nav bar text items Home,Services,Products, Contact */
+    .nav-listitems{
+        font-size: 50px;
+    }
+    /* Brand logo text */
+    .a-brandlogo{
+        font-size: 60px;
+    }
+    /* Services text that only shows mobile. */
+    .h1-mobileServicesText{
+        display: none;
+    }
+    .materialboxed{
+        transform: rotate(90deg);
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+    
+    
+    
+    /*  For mobile phones only */
+    @media only screen and (max-width: 768px){
+        /* Minimize Brand Logo */
+        .a-brandlogo{
+            font-size: 30px;
+        }
+        /* Remove carousel */
+        .carousel{
+            display: none !important;
+        }
+        /* REDUCE Container padding */
+        .container{
+            padding-top: 0px;
+            padding-bottom: 2px;
+        }
+        /* REDUCE Intro Text "Be your own kind..." */
+        .h1-IntroText{
+            padding-top: 0px;
+            text-align: center; 
+            font-family: 'Cookie', cursive; 
+            font-size: 50px;
+            border-bottom: 1px solid black;
+        }
+        /* REDUCE Text underneath Circle Images */
+        .h1-ImageText{
+            text-align: center; 
+            font-size: 20px; 
+            font-family: 'EB Garamond', serif;
+        }
+        /* REMOVE Text offering Additional Services */
+        .h1-offerText{
+            text-align: center; 
+            font-family: 'EB Garamond', serif; 
+            font-size: 20px;
+            display: none;
+        }
+        /* REMOVE parallax images for mobile. */
+        .parallax-container{
+            display: none !important;
+        }
+        /* REMOVE Text saying "We are a certified Shiseido retailer.." */
+        .h1-certText{
+            text-align: center; 
+            font-family: 'Cookie', cursive; 
+            font-size: 25px;
+            
+        }
+        /* REMOVE PRODUCTS IMAGES */
+        .materialboxed{
+            width: 60px;
+            height: 60px;
+        }
+        /* REMOVE Text for Products at bottom on container.*/
+        .h1-ProdText{
+            text-align: center; 
+            font-family: 'Cookie', cursive; 
+            font-size: 35px;
+            display: none;
+        }
+        
+        
+        
+        
+        
+        .Loc-Name{
+        text-align: center;
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 15px;
+        border-bottom: 1px solid black;
+    }
+    /*Loc-Addr is the class that holds the text for the Location Address */
+    .Loc-Addr{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        font-family: 'EB Garamond', serif;
+        padding-bottom: 0;
+    }
+    /* Schedule-text is the class that holds the text "Schedule an Appointment"*/
+    .Schedule-text{
+        text-align: center;
+        color: black;
+        font-family: 'EB Garamond', serif;
+        font-size: 15px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid black;
+    }
+    /* Loc-Phone is the class that holds the text for the Location Phone*/
+    .Loc-Phone{
+        text-align: center;
+        color: black;
+        font-family: 'Times New Roman', serif;
+        font-size: 15px;
+    }
+    /* Loc-Hour is the class that holds the text for Location Hours*/
+    .Loc-Hour{
+        text-align: center;
+        color: black;
+        font-family: 'Times New Roman', serif;
+        font-size: 15px;
+    }
+    /* Location-image is the class that holds the images for each Location*/
+    .Location-image{
+        width: 220px;
+        height: 220px;
+        border: 2px solid black;   
+    }
+    
+    /* Footer */
+    .myfooter{
+        background-color: black; 
+        padding-top: 1px; 
+        padding-bottom: 1px;
+    }
+    /* Footer Text */
+    .h1-footerText{
+        font-family: 'EB Garamond', serif; 
+        font-size: 10px; 
+        color: white;
+    }
+    /* Services text that only shows mobile. */
+    .h1-mobileServicesText{
+        padding-top: 0px;
+        text-align: center; 
+        font-family: 'Cookie', cursive; 
+        font-size: 35px;
+        display: inline;
+        padding-bottom: 2px;
+    }
+    .myservrow{
+        text-align: center;
+    }
+    
+    
+        
+        
+    
+        
+        
+        
+    }
+    
